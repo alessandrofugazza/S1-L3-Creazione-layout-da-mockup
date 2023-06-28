@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+body {
+    font-family: 'Libre Baskerville', serif;
+}
+
+header {
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 15px;
+}
+
+main {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+}
+
+h2 {
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+hr {
+    margin-bottom: 35px;
+    border: 1px solid rgba(192, 237, 255, 0.603);
+}
+
+figure {
+    margin: 15px auto;
+}
+
+li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.introduction {
+    margin: 70px auto;
+}
+
+.header-logo {
+    height: 50px;
+}
+
+.sub-header {
+    text-align: center;
+    background-color: #faebd733;
+    border-top: 2px solid #ffa60036;
+    padding: 15px;
+}
+
+.sub-header-allcaps {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.focaccia-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.404);
+    margin-bottom: 20px;
+}
+
+.focaccia-caption {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.featured-in {
+    border-left: 3px solid #faebd783;
+    padding-left: 15px;
+    margin-top: 30px;
+}
+
+.featured-in-allcaps {
+    text-transform: uppercase;
+    color: #b17300;
+}
+
+.featured-in-cap {
+    text-transform: capitalize;
+
+}
+
+.link-style {
+    color: rgb(61, 140, 204);
+}
+
+.ingredients-for,
+.method-step-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+
+.recipe-for {
+    margin-bottom: 40px;
+}
